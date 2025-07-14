@@ -1,13 +1,9 @@
+// app/page.js
 export default function HomePage() {
   return (
-    <div className="glass-card text-center">
-      <h1 className="text-4xl font-bold text-text-accent mb-4">
-        Welcome to DNA.js 🚀
-      </h1>
-      <p className="text-lg text-gray-300">
-        A modern, full-stack web framework for building scalable applications
-        with React and Next.js.
-      </p>
+    <div className="text-center fade-in">
+      <h1 className="gradient-text">Welcome to our Project</h1>
+      <h2 className="text-secondary">This is a basic heading and subheading</h2>
     </div>
   )
 }

@@ -1,27 +1,18 @@
-import { Geist, Geist_Mono } from 'next/font/google'
+// app/layout.js
 import './globals.css'
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-})
-
 export const metadata = {
-  title: 'DNA.js',
-  description:
-    'A modern, full-stack JavaScript framework for building web applications.',
+  title: 'DNA.js Project',
+  description: 'A basic layout for our project',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-black text-white">
-        <main className="max-w-7xl mx-auto px-4 py-8">{children}</main>
+      <body>
+        <main className="min-h-screen flex items-center justify-center px-4">
+          <div className="container">{children}</div>
+        </main>
       </body>
     </html>
   )
