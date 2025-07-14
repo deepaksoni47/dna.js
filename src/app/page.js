@@ -5,7 +5,8 @@ export default function HomePage() {
         Welcome to DNA.js 🚀
       </h1>
       <p className="text-lg text-gray-300">
-        Your Next.js boilerplate is ready. Start building fast and smart.
+        A modern, full-stack web framework for building scalable applications
+        with React and Next.js.
       </p>
     </div>
   )
